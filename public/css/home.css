@@ -154,7 +154,7 @@ body{
 .header .tuvan {
     padding-left: 50px;
     position: relative;
-    top: 10px;
+    top: 7px;
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: 10px 6px;
@@ -245,7 +245,7 @@ a, .text-link {
 .nav .subnav{
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
-    background-color: white;
+    background-color: #ffffff;
     width: 250px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
@@ -260,7 +260,7 @@ a, .text-link {
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
     left: 150%;
-    width: 250px;
+    width: 270px;
     margin-top: -60px;
     background-color: #fdfdfd;
     box-shadow: 10px 10px 10px -10px gray;
@@ -318,23 +318,23 @@ a, .text-link {
 }
 .icon2{
    position: relative;
-    left: 65px;
+    left: 30px;
 }
 .tranh .icon2{
     position: relative;
-    left: 84px;
+    left: 50px;
 }
 .mohinh .icon2{
     position: relative;
-    left: 123px;
+    left: 90px;
 }
 .lua .icon2{
     position: relative;
-    left: 113px;
+    left: 80px;
 }
 .dong .icon2{
     position: relative;
-    left: 99px;
+    left: 66px;
 }
 .subnav1 li{
     position: relative;
@@ -345,7 +345,7 @@ a, .text-link {
     position: absolute;
     background-color: white;
     color: black;
-    width: 200px;
+    width: 220px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
 }
@@ -468,6 +468,111 @@ a, .text-link {
     top: -90px;
 }
 
+
+/*------------------SLIDER--------------------*/
+
+.carousel-inner{
+    width: 100%;
+    height: 470px;
+}
+/*-----------------MAIN----------------*/
+
+.product_new > .container{
+    width: 100%;
+    height: 530px;
+}
+.font_product{
+    line-height: 100px;
+    margin-left: 139px;
+}
+.main > .product_new > .container > h2:hover{
+    color: #ff3900 ;
+}
+
+.shop_box{
+    width: 1240px;
+    height: 950px;
+    margin-left: 129px;
+    margin-top: -100px;
+}
+.image_box{
+    width: 299px;
+    height: 400px;
+    background-color: #ffffff;
+    float: left;
+    margin-left: 10px;
+    margin-top: 110px;
+}
+.image_box img {
+    width: 299px;
+    height: 330px;
+}
+.name_product{
+    margin-top: 310px;
+}
+.name_product H4{
+    font-size: 20px;
+    color: black;
+}
+.name_product H4:hover{
+    color: #ff3900;
+}
+.shop_box a:hover h4{
+    color: #ff3900;
+}
+.name_product H5{
+    margin-top: -300px;
+    color: #9c9a9a;
+}
+.gia{
+    font-size: 15px;
+    color: red;
+}
+.gia2{
+    margin-left: 100px;
+    margin-top: -21px;
+    color: #9e9a9a;
+    text-decoration: line-through;
+}
+figure{
+    overflow: hidden
+}
+.image_box > img{
+    display: block;
+}
+.image_box img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.image_box:hover img{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.heat{
+    width: 30px;
+    height: 30px;
+    background-color: #ef4141;
+    border-radius: 4px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -520,6 +625,7 @@ a, .text-link {
     }
     .logo{
         margin-left: -60px ;
+
     }
 }
 
