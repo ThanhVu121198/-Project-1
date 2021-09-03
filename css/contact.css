@@ -11,6 +11,7 @@ body{
     overflow-x: hidden;
     width: 100%;
     height: 2000px;
+    line-height: 1.7;
 }
 
 /*---------------HEADER---------------*/
@@ -227,6 +228,7 @@ a, .text-link {
     height: 50px;
     background-color: #ffffff;
     display: flex ;
+
 }
 .header_nav .container{
     width: 83.3%;
@@ -234,7 +236,9 @@ a, .text-link {
     padding-left: 10px ;
     padding-right: 10px ;
     background-color: #ffffff;
-    margin-left: 117px;
+    /*margin-left: 117px;*/
+    margin-right: auto;
+    margin-left: auto;
 }
 .nav > li {
     display: inline-block;
@@ -245,7 +249,7 @@ a, .text-link {
 .nav .subnav{
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
-    background-color: white;
+    background-color: #ffffff;
     width: 250px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
@@ -317,24 +321,24 @@ a, .text-link {
     text-decoration: none;
 }
 .icon2{
-   position: relative;
-    left: 65px;
+    position: relative;
+    left: 30px;
 }
 .tranh .icon2{
     position: relative;
-    left: 84px;
+    left: 50px;
 }
 .mohinh .icon2{
     position: relative;
-    left: 123px;
+    left: 90px;
 }
 .lua .icon2{
     position: relative;
-    left: 113px;
+    left: 80px;
 }
 .dong .icon2{
     position: relative;
-    left: 99px;
+    left: 66px;
 }
 .subnav1 li{
     position: relative;
@@ -345,7 +349,7 @@ a, .text-link {
     position: absolute;
     background-color: white;
     color: black;
-    width: 200px;
+    width: 220px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
 }
@@ -468,6 +472,21 @@ a, .text-link {
     top: -90px;
 }
 
+
+/*------------------SLIDER--------------------*/
+
+
+
+/*.slider{*/
+/*    width: 100%;*/
+/*    height: 500px;*/
+/*    background-color: #323c42;*/
+/*    background-image: url("https://bizweb.dktcdn.net/100/434/926/themes/832778/assets/slider_1.jpg?1630049520862");*/
+/*}*/
+
+
+
+
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -520,10 +539,58 @@ a, .text-link {
     }
     .logo{
         margin-left: -60px ;
+
     }
 }
-
-
+/*--------------main-------------*/
+.main .bread-crumb {
+    padding: 15px 0;
+    max-width: 1140px;
+}
+.bread-crumb .container{
+    width: 85%;
+    margin: 0 84.708px;
+    line-height: 1.7;
+}
+.main .g{
+    padding: 0 3px;
+}
+.breadcrumb li span{
+    display: inline;
+    font-size: 17px;
+}
+.breadcrumb li strong span{
+    color: #ff6200;
+}
+.item-contact {
+    display: flex;
+    background: #f7f7f7;
+}
+.item-contact{
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.item-contact .img {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    background: #eb3e32;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.item-contact .contant-r {
+    padding-left: 10px;
+    line-height: 1.7;
+    align-items: center;
+}
+.item-contact .contant-r p{
+    margin: 0;
+}
 
 
 
