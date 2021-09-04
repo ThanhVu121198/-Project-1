@@ -559,13 +559,13 @@ a, .text-link {
 }
 /*---main left---*/
 .all_main .main_left{
-    width: 40%;
+    width: 38%;
     height: 100%;
 }
 /* -------- MAIN -------*/
 .main{
     margin-top: 50px;
-    width: 100%;
+    width: 60%;
     float: none;
     margin-left: 200px  ;
     margin-right: auto;
@@ -644,30 +644,63 @@ a, .text-link {
 }
 /*---main right---*/
 .all_main .main_right{
-    display:table-cell;
-    text-align: center;
-    vertical-align: middle;
     float: right;
-    margin-right: 10px;
+    margin-right: 200px;
     height: 100%;
     width: 50%;
     margin-top: -1350px;
 }
-.all_main .main_right h1{
-    float: left;
-    margin-left: 100px;
-    font-weight: bold;
-
-}
-.main_right .box_new{
-    width: 200px;
-    height: 330px;
-    margin-left: -270px;
-    margin-top: 90px;
-    border: 1px solid black;
-}
-.main_right img{
+#name{
     width: 100%;
-    height: 40%;
 }
-
+.all_main .main_right h2{
+    float: left;
+    font-weight: bold;
+    text-align: center;
+}
+.all_main .main_right p{
+    float: left;
+    margin-top: 20px;
+    margin-left: -200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 10px;
+    text-align: justify;
+}
+.all_main .main_right img{
+    float: left;
+    margin: 10px;
+}
+.all_main #author{
+    color: blue;
+    font-weight: lighter;
+    font-size: 15px;
+    float: left;
+    margin-left: 660px;
+}
+.all_main .save{
+    background-color: #402f2f;
+    float: left;
+    margin-left: 880px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.all_main .save a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.all_main .share{
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-left: 97%;
+}
+.all_main .share p{
+    font-size: 15px;
+}
+.all_main .share i{
+    font-size: 30px;
+}
