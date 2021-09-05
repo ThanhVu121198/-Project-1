@@ -534,6 +534,7 @@ a, .text-link {
 .buys_main{
     float: left;
     width: 100%;
+    position: relative;
 }
 .buys_left{
     padding: 10px;
@@ -557,11 +558,13 @@ a, .text-link {
     transform: scale(1.2);
 }
 .buys_right {
-    padding: 5px;
+    position: fixed;
     float: left;
     width: 30%;
-    margin-left: 5%;
     height: 400px;
+    bottom: 30%;
+    top: 30%;
+    margin-left:700px;
 }
 .buys_name{
     text-transform: capitalize;
@@ -569,12 +572,61 @@ a, .text-link {
 .price{
     display: inline-flex;
 }
-.price p{
-}
 .now_price{
+    line-height: 30px;
     color: #eb3e32;
 }
 .old_price{
-    margin-left: 20px;
-    text-decoration:line-through ;
+    padding:20px;
+    text-decoration:line-through;
 }
+.breadcrumb{
+    background-color: white;
+}
+.box_number{
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+}
+.box_number h3{
+    line-height:5px;
+}
+.input_box{
+    margin-left: 30px;
+}
+.input{
+    height:40px;
+    width: 60px;
+    text-align: right;
+    font-size: 20px;
+    line-height: 40px;
+}
+.button_dow{
+    height: 40px;
+    width: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 25px;
+    line-height: 40px;
+}
+.button_up{
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: whitesmoke;
+}
+.button_up:hover{
+    background-color: #eb3e32;
+    color: white;
+}
+.button_dow:hover{
+    background-color: #eb3e32;
+    color: white;
+}
+
+
