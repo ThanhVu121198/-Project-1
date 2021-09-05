@@ -10,7 +10,8 @@ body{
     color: #554f4f;
     overflow-x: hidden;
     width: 100%;
-    height: 100%;
+    height: 2000px;
+    line-height: 1.7;
 }
 
 /*---------------HEADER---------------*/
@@ -237,6 +238,7 @@ a, .text-link {
     /*margin-left: 117px;*/
     margin-right: auto;
     margin-left: auto;
+    z-index: 1;
 }
 .nav > li {
     display: inline-block;
@@ -475,12 +477,15 @@ a, .text-link {
 
 
 
-/*.slider{
-    width: 100%;
-    height: 500px;
-    background-color: #323c42;
-    background-image: url("https://achaumedia.vn/wp-content/uploads/2020/08/do-my-nghe-1.jpg");
-}*/
+/*.slider{*/
+/*    width: 100%;*/
+/*    height: 500px;*/
+/*    background-color: #323c42;*/
+/*    background-image: url("https://bizweb.dktcdn.net/100/434/926/themes/832778/assets/slider_1.jpg?1630049520862");*/
+/*}*/
+
+
+
 
 @keyframes fadeIn {
     from{
@@ -537,137 +542,70 @@ a, .text-link {
 
     }
 }
-/*--- nguồn trang ---*/
-#main .breadcrumb {
+/*--------------main-------------*/
+.main {
+    z-index: 2;
+}
+.main .bread-crumb {
+    padding: 15px 0;
+    max-width: 1296px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container .bread-crumb {
+    width: 85%;
+    margin: 0 84.708px;
+    line-height: 1.7;
+}
+.main .g{
+    padding: 0 3px;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    margin-bottom: 1rem;
+    list-style: none;
     background-color: white;
 }
-#main .breadcrumb strong{
-    color: orangered;
+.breadcrumb li span{
+    display: inline;
+    font-size: 17px;
 }
-#main .breadcrumb .g{
-    padding: 0 5px;
+.breadcrumb li strong span{
+    color: #ff6200;
 }
-#main a{
-    font-weight: bold;
-}
-#main{
-    width: 200px;
-    height: 50px;
-    margin-left: 200px;
-    margin-right: auto;
-    margin-top: 10px;
-}
-/*---main left---*/
-.all_main .main_left{
-    width: 40%;
-    height: 100%;
-}
-/* -------- MAIN -------*/
-.main{
-    margin-top: 50px;
+.page .aside-item .nav-item{
+    position: relative;
+    clear: left;
+    font-size: 14px;
+    padding: 0;
     width: 100%;
-    float: none;
-    margin-left: 200px  ;
-    margin-right: auto;
-}
-.list_product{
-    margin-top:5px;
     float: left;
-    width: 19%;
 }
-.top_list{
-    text-transform: uppercase;
-    width: 280px;
-    height: 50px;
-    background-color: whitesmoke;
+.aside-blog .blog-list .loop-blog{
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #ebebeb;
 }
-.top_list p{
-    width: 280px;
-    padding-left: 10px;
-    line-height: 50px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+.aside-item .navbar-pills{
+    padding: 0;
+    z-index: 1;
 }
-.name_list{
-    text-align: left;
-    text-transform: capitalize;
-    font-size: 22px;
-    padding: 10px;
+@media (max-width: 1182px) {
+    .navbar-pills {
+        display: block;
+    }
 }
-.list{
-    font-size: 15px;
-    text-align: left;
-}
-.list :hover{
-    color: red;
-}
-.content{
-    margin-top: 20px;
-    width: 80%;
-    float: left;
+.loop-blog .thumb-left{
+    display: flex;
 }
 
 
-/*------main hot-----*/
-.main_hot{
-    margin-top: 50px;
-    width: 280px;
-    float: none;
-    margin-left: 200px  ;
-    margin-right: auto;
-}
-.hot_list{
-    text-transform: uppercase;
-    width: 280px;
-    height: 50px;
-    background-color: whitesmoke;
-}
-.hot_list p{
-    width: 280px;
-    padding-left: 10px;
-    line-height: 50px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-.hot_box{
-    margin: 10px;
-}
-.hot_box1 p{
-    font-weight: bold;
-    font-size: 15px;
-    text-align: left;
-}
-.hot_box1 a{
-    font-size: 13px;
-}
-/*---main right---*/
-.all_main .main_right{
-    display:table-cell;
-    text-align: center;
-    vertical-align: middle;
-    float: right;
-    margin-right: 10px;
-    height: 100%;
-    width: 50%;
-    margin-top: -1350px;
-}
-.all_main .main_right h1{
-    float: left;
-    margin-left: 100px;
-    font-weight: bold;
 
-}
-.main_right .box_new{
-    width: 200px;
-    height: 330px;
-    margin-left: -270px;
-    margin-top: 90px;
-    border: 1px solid black;
-}
-.main_right img{
-    width: 100%;
-    height: 40%;
-}
+
+
+
+
+
 

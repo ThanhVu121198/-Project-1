@@ -553,7 +553,6 @@ a, .text-link {
 #main{
     width: 200px;
     height: 50px;
-    margin-left: 200px;
     margin-right: auto;
     margin-top: 10px;
 }
@@ -567,7 +566,6 @@ a, .text-link {
     margin-top: 50px;
     width: 100%;
     float: none;
-    margin-left: 200px  ;
     margin-right: auto;
 }
 .list_product{
@@ -642,32 +640,3 @@ a, .text-link {
 .hot_box1 a{
     font-size: 13px;
 }
-/*---main right---*/
-.all_main .main_right{
-    display:table-cell;
-    text-align: center;
-    vertical-align: middle;
-    float: right;
-    margin-right: 10px;
-    height: 100%;
-    width: 50%;
-    margin-top: -1350px;
-}
-.all_main .main_right h1{
-    float: left;
-    margin-left: 100px;
-    font-weight: bold;
-
-}
-.main_right .box_new{
-    width: 200px;
-    height: 330px;
-    margin-left: -270px;
-    margin-top: 90px;
-    border: 1px solid black;
-}
-.main_right img{
-    width: 100%;
-    height: 40%;
-}
-

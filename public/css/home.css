@@ -237,7 +237,8 @@ a, .text-link {
     padding-left: 10px ;
     padding-right: 10px ;
     background-color: #eaeaea;
-    margin-left: 117px;
+    /*margin-left: 117px;*/
+    z-index: 1;
 }
 .nav > li {
     display: inline-block;
