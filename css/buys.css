@@ -76,7 +76,7 @@ body{
 .keys:hover > .listkey{
     display: block;
 }
-.header_search form input {
+.header_search form input{
     width: 100%;
     height: 40px;
     min-height: 40px;
@@ -225,7 +225,7 @@ a, .text-link {
 .header_nav{
     width: 100%;
     height: 50px;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
     display: flex ;
 }
 .header_nav .container{
@@ -233,8 +233,8 @@ a, .text-link {
     display: flex ;
     padding-left: 10px ;
     padding-right: 10px ;
-    background-color: #ffffff;
-    margin-left:auto;
+    background-color: #f6f6f6;
+    margin-left: auto;
     margin-right: auto;
 }
 .nav > li {
@@ -243,26 +243,29 @@ a, .text-link {
 .nav li{
     position: relative;
 }
-.nav .subnav{
+.subnav{
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
-    background-color: white;
-    width: 250px;
+    background-color: #ffffff;
+    width: 251px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
 }
 .nav .subnav a{
     line-height: 40px;
+    border: 0.5px solid #eceaea;
+    color: #5e5e5e;
 }
 .battrang{
     position: relative;
 }
-.nav .subnav .subnav_mini{
+.subnav_mini{
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
     left: 150%;
-    width: 250px;
-    margin-top: -60px;
+    width: 270px;
+    margin-top: -62px;
+    /*margin-left: 22px;*/
     background-color: #fdfdfd;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
@@ -305,7 +308,7 @@ a, .text-link {
     color: #eb3e32 ;
 }
 .subnav li a {
-    margin-left: -20px;
+    /*margin-left: -20px;*/
     display: block;
 }
 .subnav > li > a:hover{
@@ -317,41 +320,42 @@ a, .text-link {
     color: #ff3900 ;
     text-decoration: none;
 }
-.icon2{
+.battrang .icon2{
     position: relative;
-    left: 65px;
+    left: 31px;
 }
 .tranh .icon2{
     position: relative;
-    left: 84px;
+    left: 50px;
 }
 .mohinh .icon2{
     position: relative;
-    left: 123px;
+    left: 98px;
 }
 .lua .icon2{
     position: relative;
-    left: 113px;
+    left: 84px;
 }
 .dong .icon2{
     position: relative;
-    left: 99px;
+    left: 66px;
 }
 .subnav1 li{
     position: relative;
-    margin-left: -17px;
 }
 .nav .subnav1{
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
     background-color: white;
     color: black;
-    width: 200px;
+    width: 220px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
 }
 .nav .subnav1 a{
+    display: block;
     line-height: 40px;
+    border: 0.5px solid #ececec;
 }
 .subnav1 > li:hover >a{
     color: #ff3900;
@@ -468,7 +472,6 @@ a, .text-link {
     position: relative;
     top: -90px;
 }
-
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -521,48 +524,57 @@ a, .text-link {
     }
     .logo{
         margin-left: -60px ;
+
     }
 }
 .main{
-    width: 80%;
-    height: 1000px;
     float: none;
-    margin-left:0;
-    margin-right: 0;
+    width: 100%;
 }
 .buys_main{
     float: left;
     width: 100%;
 }
 .buys_left{
-    border-radius: 10px;
     padding: 10px;
     float: left;
-    width:50%;
+    width:58%;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
     background-size: cover;
-    background-color: #323c42;
+    overflow: hidden;
 }
-.buys_left:hover{
-    transition: 0.7s;
-    transform:scale(1.1);
+.buys_left img{
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.buys_left img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 .buys_right {
+    padding: 5px;
     float: left;
-    border: solid 2px black;
-    width: 45%;
+    width: 30%;
     margin-left: 5%;
     height: 400px;
 }
-
-
-
-
-
-
-
-
-
-
-
+.buys_name{
+    text-transform: capitalize;
+}
+.price{
+    display: inline-flex;
+}
+.price p{
+}
+.now_price{
+    color: #eb3e32;
+}
+.old_price{
+    margin-left: 20px;
+    text-decoration:line-through ;
+}
