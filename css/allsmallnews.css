@@ -537,6 +537,9 @@ a, .text-link {
 
     }
 }
+.page .container{
+    display: flex;
+}
 /*--- nguồn trang ---*/
 #main .breadcrumb {
     background-color: white;
@@ -549,12 +552,11 @@ a, .text-link {
 }
 #main a{
     font-weight: bold;
+    text-decoration: none;
 }
 #main{
     width: 200px;
     height: 50px;
-    margin-left: 200px;
-    margin-right: auto;
     margin-top: 10px;
 }
 /*---main left---*/
@@ -567,7 +569,6 @@ a, .text-link {
     margin-top: 50px;
     width: 60%;
     float: none;
-    margin-left: 200px  ;
     margin-right: auto;
 }
 .list_product{
@@ -580,6 +581,11 @@ a, .text-link {
     width: 280px;
     height: 50px;
     background-color: whitesmoke;
+}
+.list_box{
+    width: 280px;
+    height: 100%;
+    margin: auto;
 }
 .top_list p{
     width: 280px;
@@ -703,4 +709,8 @@ a, .text-link {
 }
 .all_main .share i{
     font-size: 30px;
+}
+.page .col-lg-9 .order-lg-2{
+    flex-direction: row;
+    float: right;
 }
