@@ -220,6 +220,11 @@ a, .text-link {
     color: #ff0000;
     text-decoration: none;
 }
+
+
+
+/*----------THANH MENU--------------*/
+
 .header_nav{
     width: 100%;
     height: 50px;
@@ -232,8 +237,8 @@ a, .text-link {
     padding-left: 10px ;
     padding-right: 10px ;
     background-color: #eaeaea;
-    /*margin-left: 117px;*/
-    z-index: 1;
+    margin-left:auto;
+    margin-right: auto;
 }
 .nav > li {
     display: inline-block;
@@ -248,7 +253,7 @@ a, .text-link {
     width: 251px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
-    padding: 0;
+    z-index: 2;
 }
 .nav .subnav a{
     line-height: 40px;
@@ -344,14 +349,17 @@ a, .text-link {
     position: relative;
 }
 .nav .subnav1{
-    opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    top: 150%;
+    transition: all 0.5s ease-in-out;
     position: absolute;
     background-color: white;
     color: black;
     width: 220px;
     box-shadow: 10px 10px 10px -10px gray;
     border-radius: 3px;
-    padding: 0;
+    z-index: 2;
 }
 .nav .subnav1 a{
     display: block;
@@ -476,13 +484,10 @@ a, .text-link {
 }
 
 
-
 .main{
     margin-top: 50px;
     width:100%;
     float: none;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
 }
 .list_product{
@@ -639,7 +644,7 @@ figure{
     background-color: #ef4141;
     border-radius: 4px;
     color: white;
-    margin-top: 5px;
+    margin-top: 5px ;
 }
 .heat figure{
     font-size: 5px;
@@ -686,6 +691,9 @@ figure{
 }
 ::before {
     display: none;
+}
+.breadcrumb{
+    background-color: white;
 }
 /*mobie*/
 @media only screen and (max-width:739px){
@@ -774,9 +782,6 @@ figure{
         height: 800px;
     }
 }
-.breadcrumb{
-    background-color: white;
-}
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
     .main{
         width: 100%;
@@ -818,7 +823,7 @@ figure{
 @media screen and (min-width: 1024px) and (max-width: 1365px){
     .content{
         width: 75%;
-       margin-left: 30px;}
+        margin-left: 30px;}
     .box_content{
         margin-left: 5%;
     }
@@ -829,7 +834,7 @@ figure{
         width: 45%;
         float: left;
         margin-left: 20px;
-}
+    }
     .image_box{
         width: 300px;
     }
@@ -838,7 +843,7 @@ figure{
     }
     .name_list{
         font-size:18px ;
-}
+    }
     .list{
         margin-left: -10px;
         text-align: left;
@@ -935,10 +940,3 @@ figure{
 /*        width: 45%;*/
 /*    }*/
 /*}*/
-.tabmenu ul{
-    background-color: brown;
-    margin-top: 15px;
-}
-.tab-content{
-    height: 400px;
-}
