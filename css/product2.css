@@ -709,9 +709,6 @@ figure{
 .top_content hr{
     margin: 34px;
 }
-::before {
-    display: none;
-}
 .breadcrumb{
     background-color: white;
 }

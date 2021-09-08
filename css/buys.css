@@ -93,9 +93,6 @@ body{
     font-size: 14px;
     color: #999ea1;
 }
-::before{
-    display: none;
-}
 .header_search form .input-group-btn {
     position: absolute;
     white-space: nowrap;
