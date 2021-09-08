@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/favorite.css">
+    <link rel="stylesheet" href="css/Cart.css">
 </head>
 <body>
 <!-------------HEADER-------------->
@@ -376,106 +376,234 @@
                             <span class="g">/</span>
                         </li>
                         <li>
-                            <strong><span>Contact</span></strong>
+                            <strong><span>Cart</span></strong>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="page">
+    <div class="main-cart-gage">
         <div class="container">
-            <div>
-                <div class="row">
-                    <div class="col-lg-3 col-12 order-2 order-lg-1">
-                        <div class="aside-item">
-                            <h2 class="title-block">
-                                <span>Category</span>
-                            </h2>
-                            <div class="aside-content">
-                                <div class="nav-category navbar-toggleable-md">
-                                    <ul class="nav navbar-pills">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Product</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Library</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">New</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Video</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Abouts</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Question</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="aside-blog">
-                            <h2 class="title-block">
-                                <a href="#">Hot news</a>
-                            </h2>
-                            <div class="aside-list-content">
-                                <div class="blog-list ">
-                                    <div class="loop-blog">
-                                        <div class="thumb-left">
-                                            <a><img src="https://bizweb.dktcdn.net/thumb/small/100/434/926/articles/1556164314-967-avar-an-1556101437-width640height480.jpg?v=1629006171043"></a>
-                                        </div>
-                                        <div class="name-right">
-                                            <p>
-                                                <a href="#">
-                                                    Model West Andrea prefers see-through nightgowns
-                                                </a>
-                                            </p>
+            <div class="header-cart">
+                <div class="title-cart">
+                    <h1>YOUR CART</h1>
+                </div>
+            </div>
+            <div class="cart-page">
+                <div class="form-cart">
+                    <div class="cart-header">
+                        <div>Product information</div>
+                        <div>Unit price</div>
+                        <div>Quantity</div>
+                        <div>Into money</div>
+                    </div>
+                    <div class="cart-body">
+                        <div class="cart-row">
+                            <div class="cart-flex">
+                                <a href="#" class="cart-img">
+                                    <img src="https://bizweb.dktcdn.net/thumb/compact/100/434/926/products/pc-ao-thun-unisex-human-nature-round-square-t-shirt-relaxed-form-large-1608542104-4159.jpg">
+                                </a>
+                                <div class="cart-info">
+                                    <div class="cart-name">
+                                        <a href="#" class="cart-name-product">Unisex T-shirt</a>
+                                        <span class="product-size">M</span>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="grid-item">
+                                            <span class="cart-price">120.000 USD</span>
                                         </div>
                                     </div>
-                                    <div class="loop-blog">
-                                        <div class="thumb-left">
-                                            <a><img src="https://bizweb.dktcdn.net/thumb/small/100/434/926/articles/1556164314-967-avar-an-1556101437-width640height480.jpg?v=1629006171043"></a>
-                                        </div>
-                                        <div class="name-right">
-                                            <p>
-                                                <a href="#">
-                                                    Model West Andrea prefers see-through nightgowns
-                                                </a>
-                                            </p>
+                                    <div class="grid">
+                                        <div class="grid-item">
+                                            <div class="input-btn">
+                                                <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus items-count" data-id="" data-qty="0" data-line="1" aria-label="-">
+                                                    -
+                                                </button>
+                                                <input type="text" name="updates[]" class="ajaxcart__qty-num number-sidebar" maxlength="3" value="1" min="0" data-id="" data-line="1" aria-label="quantity" pattern="[0-9]*">
+                                                <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus items-count" data-id="" data-line="1" data-qty="2" aria-label="+">
+                                                    +
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="loop-blog">
-                                        <div class="thumb-left">
-                                            <a><img src="https://bizweb.dktcdn.net/thumb/small/100/434/926/articles/1556164314-967-avar-an-1556101437-width640height480.jpg?v=1629006171043"></a>
-                                        </div>
-                                        <div class="name-right">
-                                            <p>
-                                                <a href="#">
-                                                    Model West Andrea prefers see-through nightgowns
-                                                </a>
-                                            </p>
+                                    <div class="grid">
+                                        <div class="grid-item">
+                                            <span class="cart-price">120.000₫</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-12 order-1 order-lg-2">
-                    </div>
+                    <div class="cart-footer"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div class="footer"></div>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+
+        var preLoadLoadGif = $('<div class="spinner-border text-primary" role="status"><span class="sr-only">Loading...</span></div>');
+        var searchID = -1;
+        var currReqObj = null;
+
+        var $resultsBox = $('<div class="results-box"><div class="search-results"></div><div class="history"></div></div>').appendTo('.theme-search, .theme-searchs');
+
+        $('.theme-search-smart .theme-header-search-form input[type="text"]').bind('keyup change', function(e){
+            //$('.results-box .search-results').html('');
+            if($(this).val().length > 0 && $(this).val() != $(this).data('oldval')) {
+                $(this).data('oldval', $(this).val());
+                if(currReqObj != null) currReqObj.abort();
+                clearTimeout(searchID);
+                var $form = $(this).closest('form');
+                var term = $form.find('input[name="query"]').val();
+                var linkURL = $form.attr('action') + '?query=' + term;
+                $resultsBox.find('.search-results').html('<div class="theme-loading"><div class="spinner-border text-primary" role="status"><span class="sr-only">Loading...</span></div></div>');
+
+                searchID = setTimeout(function(){
+                    currReqObj = $.ajax({
+                        url: $form.attr('action'),
+                        async: false,
+                        data: {
+                            type: 'product',
+                            view: 'json',
+                            q: term
+                        },
+                        dataType: 'json',
+                        success: function(data){
+                            currReqObj = null;
+
+                            if(data.results_total == 0) {
+                                $resultsBox.find('.search-results').html('<div class="note">Không có kết quả tìm kiếm</div>');
+                            } else {
+                                $resultsBox.find('.search-results').empty();
+                                $.each(data.results, function(index, item){
+                                    var xshow = 'wholesale';
+                                    if(!(item.title.toLowerCase().indexOf(xshow) > -1)) {
+                                        var $row = $('<a class="clearfix"></a>').attr('href', item.url).attr('title', item.title);
+                                        $row.append('<div class="img"><img src="' + item.thumb + '" /></div>');
+                                        $row.append('<div class="d-title">'+item.title+'</div>');
+                                        $row.append('<div class="d-title d-price">'+item.price+'</div>');
+                                        $resultsBox.find('.search-results').append($row);
+                                    }
+                                });
+                                var countll = $('.search-results a').length;
+                                $resultsBox.find('.search-results').append('<a href="' + linkURL + '" class="note" title="Xem tất cả">Xem tất cả <span class="allcount"></span></a>');
+                                $('.allcount').html("("+countll+")");
+                            }
+                        }
+                    });
+                }, 500);
+            }  else if ($(this).val().length <= 1) {
+                //$resultsBox.find('.search-results').empty();
+            }
+        }).attr('autocomplete', 'off').data('oldval', '').bind('focusin', function(){
+            $resultsBox.fadeIn(200);
+        }).bind('click', function(e){
+            e.stopPropagation();
+        });
+        $('body').bind('click', function(){
+            $resultsBox.hide();
+        });
+        $('.theme-search-form').on('submit', function(e){
+            e.preventDefault();
+            var term = '*' + $(this).find('input[name="query"]').val() + '*';
+            var linkURL = $(this).attr('action') + '?query=' + term ;
+            window.location = linkURL;
+
+        });
+
+    });
+
+
+
+</script>
+<script id="CartTemplate" type="text/template">
+
+    <form action="" method="post" novalidate class="cart ajaxcart cartpage">
+        <div class="cart-header-info">
+            <div>Thông tin sản phẩm</div><div>Đơn giá</div><div>Số lượng</div><div>Thành tiền</div>
+        </div>
+        <div class="ajaxcart__inner ajaxcart__inner--has-fixed-footer cart_body items">
+            {{#items}}
+            <div class="ajaxcart__row">
+                <div class="ajaxcart__product cart_product" data-line="{{line}}">
+                    <a href="{{url}}" class="ajaxcart__product-image cart_image" title="{{name}}"><img src="{{img}}" alt="{{name}}"></a>
+                    <div class="grid__item cart_info">
+                        <div class="ajaxcart__product-name-wrapper cart_name">
+                            <a href="{{url}}" class="ajaxcart__product-name h4" title="{{name}}">{{name}}</a>
+                            {{#if variation}}
+                            <span class="ajaxcart__product-meta variant-title">{{variation}}</span>
+                            {{/if}}
+                            <a class="cart__btn-remove remove-item-cart ajaxifyCart--remove" href="javascript:;" data-line="{{line}}">Xóa</a>
+
+                        </div>
+                        <div class="grid">
+                            <div class="grid__item one-half text-right cart_prices">
+                                <span class="cart-price">{{price}}</span>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="grid__item one-half cart_select">
+                                <div class="ajaxcart__qty input-group-btn">
+                                    <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus items-count" data-id="{{key}}" data-qty="{{itemMinus}}" data-line="{{line}}" aria-label="-">
+                                        -
+                                    </button>
+                                    <input type="text" name="updates[]" class="ajaxcart__qty-num number-sidebar" maxlength="3" value="{{itemQty}}" min="0" data-id="{{key}}" data-line="{{line}}" aria-label="quantity" pattern="[0-9]*">
+                                    <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus items-count" data-id="{{key}}" data-line="{{line}}" data-qty="{{itemAdd}}" aria-label="+">
+                                        +
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid">
+                            <div class="grid__item one-half text-right cart_prices">
+                                <span class="cart-price">{{linePrice}}</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/items}}
+
+
+        </div>
+        <div class="ajaxcart__footer ajaxcart__footer--fixed cart-footer">
+            <div class="row">
+                <div class="col-lg-4 col-12 offset-md-8 offset-lg-8 offset-xl-8">
+                    <div class="ajaxcart__subtotal">
+                        {{#if cartDiscountsApplied}}
+                        <div class="grid grid--table ajaxcart__discounts">
+                            {{#each cartDiscounts}}
+                            <div class="grid__item two-thirds">
+							<span class="order-discount order-discount--title order-discount--cart-title">
+								<span class="icon icon-saletag" aria-hidden="true"></span><span class="visually-hidden">%:</span>{{ this.title }}
+							</span>
+                            </div>
+                            <div class="grid__item one-third text-right">
+                                <span class="order-discount">-{{{ this.formattedAmount }}}</span>
+                            </div>
+                            {{/each}}
+                        </div>
+                        {{/if}}
+                        <div class="cart__subtotal">
+                            <div class="cart__col-6">Tổng tiền:</div>
+                            <div class="text-right cart__totle"><span class="total-price">{{{totalPrice}}}</span></div>
+                        </div>
+                    </div>
+                    <div class="cart__btn-proceed-checkout-dt">
+                        <button onclick="location.href='/checkout'" type="button" class="button btn btn-default cart__btn-proceed-checkout" id="btn-proceed-checkout" title="Thanh toán">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</script>
 </body>
 </html>
