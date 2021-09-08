@@ -537,12 +537,32 @@ a, .text-link {
     }
 }
 .main{
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
+    margin-left: -32px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     position: relative;
+}
+.diachi{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1;
+}
+.diachi a{
+    text-decoration: none;
+    color: black;
+}
+.diachi a:hover{
+    color: #0d5e97;
+}
+.diachi h4{
+    font-size: 17px;
+}
+.diachi2{
+    margin-left: 5px;
+    color: #ff3900;
 }
 .buys_main{
     float: left;
@@ -692,6 +712,12 @@ figure{
 .btn-primary{
     margin-left:89%;
     margin-top: 20px;
+}
+.hot_link{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
 }
 .box_content{
     width: 100%;
@@ -1056,11 +1082,6 @@ figure{
         float: left;
         padding: 20px;
     }
-
-    .hotproduct {
-        padding-top: 20px;
-    }
-
     .box_content {
         width: 100%;
     }
@@ -1108,6 +1129,12 @@ figure{
     .buy_now-buy {
         font-size: 12px;
     }
+    .tab{
+        display: none;
+    }
+    .hot_link{
+        margin-top: 30px;
+    }
 }
 @media screen and (min-width: 740px) and (max-width: 1025px){
     .buys_left {
@@ -1128,18 +1155,13 @@ figure{
     }
 
     .tab {
-        margin-top: 30px;
-        display: flex;
+        display: none;
+    }
+    .hot_link{
         width: 100%;
-        float: left;
-        padding: 20px;
+        height: auto;
+        margin-top: 30px;
     }
-
-    .hotproduct{
-        text-align: center;
-        text-transform: capitalize;
-    }
-
     .box_content {
         width: 100%;
     }

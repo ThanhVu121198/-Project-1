@@ -487,8 +487,28 @@ a, .text-link {
 .main{
     margin-top: 50px;
     width:100%;
-    float: none;
     position: relative;
+    margin-left: -32px;
+}
+.diachi{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+.diachi a{
+    text-decoration: none;
+    color: black;
+}
+.diachi a:hover{
+    color: #0d5e97;
+}
+.diachi h4{
+    font-size: 17px;
+}
+.diachi2{
+    margin-left: 5px;
+    color: #ff3900;
 }
 .list_product{
     margin-top:5px;
@@ -592,7 +612,7 @@ a, .text-link {
     margin-top: 50px;
 }
 .image_box img {
-    width: 299px;
+    width: 100%;
     height: 330px;
 }
 .name_product{
