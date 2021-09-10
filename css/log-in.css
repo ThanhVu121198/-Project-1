@@ -575,84 +575,88 @@ a, .text-link {
 .breadcrumb li strong span{
     color: #ff6200;
 }
-.item-contact {
+.content-account .group{
     display: flex;
-    background: #f7f7f7;
+    border: 1px solid #eb3e32;
+    min-height: 460px;
+    margin-bottom: 40px;
 }
-.item-contact{
-    padding: 10px;
-    align-items: center;
-    margin-bottom: 10px;
+.content-account .left-col{
+    background: #ffffff;
+    width: calc(100% - 290px);
+    padding: 30px;
 }
-.item-contact .img {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 40px;
-    background: #eb3e32;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-.item-contact .contant-r {
-    padding-left: 10px;
-    line-height: 1.7;
-    align-items: center;
-}
-.item-contact .contant-r p{
+.content-account .left-col h1{
+    font-size: 18px;
     margin: 0;
-}
-.form-group {
-    margin: 0;
-    padding: 0 10px 8px;
-    border: 0;
-}
-.group-contact .form-group label{
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-.form-group{
-    padding: 0 10px;
-    margin-bottom: 22px;
-    color: #323c42;
-}
-.group-contact .form-group .form-control{
-    border-radius: 0 !important;
-    font-size: 14px;
-    color: #323c42;
-    height: 40px;
-    padding: 0 15px;
-    border-left: 2px solid #eb3e32;
-    background-color: #f7f7f7;
-}
-.group_contact .form-group input,
-.group_contact .form-group textarea{
-    border-color: #f7f7f7;
-    margin-bottom: 0px;
-}
-.group-contact .form-group .content-area{
-    min-height: 280px;
-    padding: 10px 15px;
-    border-radius: 0 !important;
-    resize: none;
-    margin-bottom: 0px;
-}
-.button-default{
-    border: none;
-    box-shadow: none;
-    outline: none;
-    background: #eb3e32;
-    color: #fff;
-    height: 40px;
-    line-height: 40px;
+    padding: 0;
     font-weight: bold;
-    padding: 0 20px;
+    text-transform: unset;
+    margin-bottom: 16px;
+}
+.content-account .left-col fieldset input {
+    height: 40px;
+    line-height: 40px;
+    box-shadow: none;
+    border-color: #9c9a9a;
+}
+.content-account .left-col fieldset label{
+    font-weight: bold;
+}
+.content-account .left-col button{
+    width: 100%;
+    line-height: 1.6;
+    background-color: #eb3e32;
+    color: #fff;
     border-radius: 5px;
+    padding: 6px;
+    font-weight: bold;
+}
+.content-account .left-col .social-login{
+    margin: 16px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.content-account .left-col p{
+    text-align: center;
+}
+.content-account .left-col a{
+    text-decoration: underline;
+    color: #007bff;
+}
+.content-account .right-col{
+    background: #eb3e32;
+    width: 290px;
+    padding: 30px;
+    color: #ffffff;
+}
+.content-account .right-col h4 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: unset;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.content-account .right-col a{
     display: inline-block;
+    margin: 12px 0;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 767px){
+    .content-account .group {
+        flex-flow: column-reverse;
+    }
+    .content-account .right-col {
+        width: 100%;
+    }
+    .content-account .left-col {
+        width: 100%;
+    }
 }
 
 
