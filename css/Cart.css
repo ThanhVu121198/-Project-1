@@ -575,90 +575,121 @@ a, .text-link {
 .breadcrumb li strong span{
     color: #ff6200;
 }
-.item-contact {
-    display: flex;
-    background: #f7f7f7;
-}
-.item-contact{
-    padding: 10px;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.item-contact .img {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 40px;
-    background: #eb3e32;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-.item-contact .contant-r {
-    padding-left: 10px;
-    line-height: 1.7;
-    align-items: center;
-}
-.item-contact .contant-r p{
+.title-cart h1{
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 5.5px;
+    text-transform: uppercase;
+    font-weight: 300;
     margin: 0;
+    padding: 10px 0 20px;
 }
-.form-group {
-    margin: 0;
-    padding: 0 10px 8px;
-    border: 0;
-}
-.group-contact .form-group label{
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-.form-group{
-    padding: 0 10px;
-    margin-bottom: 22px;
-    color: #323c42;
-}
-.group-contact .form-group .form-control{
-    border-radius: 0 !important;
-    font-size: 14px;
-    color: #323c42;
-    height: 40px;
-    padding: 0 15px;
-    border-left: 2px solid #eb3e32;
-    background-color: #f7f7f7;
-}
-.group_contact .form-group input,
-.group_contact .form-group textarea{
-    border-color: #f7f7f7;
-    margin-bottom: 0px;
-}
-.group-contact .form-group .content-area{
-    min-height: 280px;
-    padding: 10px 15px;
-    border-radius: 0 !important;
-    resize: none;
-    margin-bottom: 0px;
-}
-.button-default{
-    border: none;
-    box-shadow: none;
-    outline: none;
-    background: #eb3e32;
-    color: #fff;
-    height: 40px;
-    line-height: 40px;
+.cart-page .cart-header {
+    display: flex;
+    padding: 7px 0;
+    border: solid 1px #ebebeb;
+    border-bottom: none;
     font-weight: bold;
-    padding: 0 20px;
-    border-radius: 5px;
-    display: inline-block;
 }
-
-
-
-
-
+.cart-page .cart-header div:nth-child(1) {
+    width: 51%;
+    text-align: left;
+    padding-left: 10px;
+}
+.cart-page .cart-header div:nth-child(2) {
+    width: 16%;
+    text-align: center;
+}
+.cart-page .cart-header div:nth-child(3) {
+    width: 16%;
+    text-align: center;
+}
+.cart-page .cart-header div:nth-child(4) {
+    width: 16%;
+    text-align: center;
+}
+.cart-page .cart-body {
+    border: solid 1px #ebebeb;
+}
+.cart-page .cart-body .cart-flex {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.cart-page .cart-body .cart-image {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.cart-flex .cart-info{
+    padding-left: 15px;
+    vertical-align: top;
+    padding-right: 10px;
+    display: flex;
+    width: calc(100% - 110px);
+}
+.cart-body .cart-flex img {
+    height: 95px;
+    padding: 0 10px;
+}
+.cart-info .cart-name{
+    width: 60%;
+    margin-bottom: 3px;
+}
+.cart-info .grid{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+.cart-info .grid span{
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    color: #eb3e32;
+}
+.grid .input-btn{
+    position: relative;
+    white-space: nowrap;
+    width: 1%;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+}
+.grid .input-btn button{
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+    color: #222;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+    width: 28px;
+    background-color: #fff;
+    height: 28px;
+    float: left;
+}
+.grid .input-btn input{
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    width: 35px;
+    min-height: 28px;
+    border: 1px solid #e5e5e5;
+    color: #222;
+    height: 28px;
+    font-size: 14px;
+    margin: 0;
+    float: left;
+    border-left: none;
+    border-right: none;
+}
 
 
 

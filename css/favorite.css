@@ -575,84 +575,40 @@ a, .text-link {
 .breadcrumb li strong span{
     color: #ff6200;
 }
-.item-contact {
-    display: flex;
-    background: #f7f7f7;
-}
-.item-contact{
-    padding: 10px;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.item-contact .img {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 40px;
-    background: #eb3e32;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-.item-contact .contant-r {
-    padding-left: 10px;
-    line-height: 1.7;
-    align-items: center;
-}
-.item-contact .contant-r p{
-    margin: 0;
-}
-.form-group {
-    margin: 0;
-    padding: 0 10px 8px;
-    border: 0;
-}
-.group-contact .form-group label{
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-.form-group{
-    padding: 0 10px;
-    margin-bottom: 22px;
-    color: #323c42;
-}
-.group-contact .form-group .form-control{
-    border-radius: 0 !important;
+.page .aside-item .nav-item{
+    position: relative;
+    clear: left;
     font-size: 14px;
-    color: #323c42;
-    height: 40px;
-    padding: 0 15px;
-    border-left: 2px solid #eb3e32;
-    background-color: #f7f7f7;
+    padding: 0;
+    width: 100%;
+    float: left;
 }
-.group_contact .form-group input,
-.group_contact .form-group textarea{
-    border-color: #f7f7f7;
-    margin-bottom: 0px;
+.aside-blog .blog-list .loop-blog{
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #ebebeb;
 }
-.group-contact .form-group .content-area{
-    min-height: 280px;
-    padding: 10px 15px;
-    border-radius: 0 !important;
-    resize: none;
-    margin-bottom: 0px;
+.aside-item .navbar-pills{
+    padding: 0;
+    z-index: 1;
 }
-.button-default{
-    border: none;
-    box-shadow: none;
-    outline: none;
-    background: #eb3e32;
-    color: #fff;
-    height: 40px;
-    line-height: 40px;
-    font-weight: bold;
-    padding: 0 20px;
-    border-radius: 5px;
-    display: inline-block;
+@media (max-width: 1182px) {
+    .navbar-pills {
+        display: block;
+    }
+}
+.aside-blog .aside-list-content{
+    width: 100%;
+}
+.aside-blog .aside-list-content .loop-blog{
+    display: flex;
+}
+.aside-blog .aside-list-content .loop-blog .name-right{
+    display: block;
+    float: left;
+    padding-left: 10px;
+    width: calc(100% - 90px);
+    margin: 0;
 }
 
 

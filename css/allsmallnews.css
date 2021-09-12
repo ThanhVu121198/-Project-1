@@ -10,8 +10,7 @@ body{
     color: #554f4f;
     overflow-x: hidden;
     width: 100%;
-    height: 2000px;
-    line-height: 1.7;
+    height: 100%;
 }
 
 /*---------------HEADER---------------*/
@@ -238,7 +237,6 @@ a, .text-link {
     /*margin-left: 117px;*/
     margin-right: auto;
     margin-left: auto;
-    z-index: 1;
 }
 .nav > li {
     display: inline-block;
@@ -477,15 +475,12 @@ a, .text-link {
 
 
 
-/*.slider{*/
-/*    width: 100%;*/
-/*    height: 500px;*/
-/*    background-color: #323c42;*/
-/*    background-image: url("https://bizweb.dktcdn.net/100/434/926/themes/832778/assets/slider_1.jpg?1630049520862");*/
-/*}*/
-
-
-
+/*.slider{
+    width: 100%;
+    height: 500px;
+    background-color: #323c42;
+    background-image: url("https://achaumedia.vn/wp-content/uploads/2020/08/do-my-nghe-1.jpg");
+}*/
 
 @keyframes fadeIn {
     from{
@@ -542,123 +537,180 @@ a, .text-link {
 
     }
 }
-/*--------------main-------------*/
-.main {
-    z-index: 2;
-}
-.main .bread-crumb {
-    padding: 15px 0;
-    max-width: 1296px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.container .bread-crumb {
-    width: 85%;
-    margin: 0 84.708px;
-    line-height: 1.7;
-}
-.main .g{
-    padding: 0 3px;
-}
-.breadcrumb {
+.page .container{
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 0;
-    margin-bottom: 1rem;
-    list-style: none;
+}
+/*--- nguồn trang ---*/
+#main .breadcrumb {
     background-color: white;
 }
-.breadcrumb li span{
-    display: inline;
-    font-size: 17px;
+#main .breadcrumb strong{
+    color: orangered;
 }
-.breadcrumb li strong span{
-    color: #ff6200;
+#main .breadcrumb .g{
+    padding: 0 5px;
 }
-.item-contact {
-    display: flex;
-    background: #f7f7f7;
-}
-.item-contact{
-    padding: 10px;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.item-contact .img {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 40px;
-    background: #eb3e32;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-.item-contact .contant-r {
-    padding-left: 10px;
-    line-height: 1.7;
-    align-items: center;
-}
-.item-contact .contant-r p{
-    margin: 0;
-}
-.form-group {
-    margin: 0;
-    padding: 0 10px 8px;
-    border: 0;
-}
-.group-contact .form-group label{
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-.form-group{
-    padding: 0 10px;
-    margin-bottom: 22px;
-    color: #323c42;
-}
-.group-contact .form-group .form-control{
-    border-radius: 0 !important;
-    font-size: 14px;
-    color: #323c42;
-    height: 40px;
-    padding: 0 15px;
-    border-left: 2px solid #eb3e32;
-    background-color: #f7f7f7;
-}
-.group_contact .form-group input,
-.group_contact .form-group textarea{
-    border-color: #f7f7f7;
-    margin-bottom: 0px;
-}
-.group-contact .form-group .content-area{
-    min-height: 280px;
-    padding: 10px 15px;
-    border-radius: 0 !important;
-    resize: none;
-    margin-bottom: 0px;
-}
-.button-default{
-    border: none;
-    box-shadow: none;
-    outline: none;
-    background: #eb3e32;
-    color: #fff;
-    height: 40px;
-    line-height: 40px;
+#main a{
     font-weight: bold;
-    padding: 0 20px;
-    border-radius: 5px;
-    display: inline-block;
+    text-decoration: none;
+}
+#main{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+}
+/*---main left---*/
+.all_main .main_left{
+    width: 38%;
+    height: 100%;
+}
+/* -------- MAIN -------*/
+.main{
+    margin-top: 50px;
+    width: 60%;
+    float: none;
+    margin-right: auto;
+}
+.list_product{
+    margin-top:5px;
+    float: left;
+    width: 19%;
+}
+.top_list{
+    text-transform: uppercase;
+    width: 280px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.list_box{
+    width: 280px;
+    height: 100%;
+    margin: auto;
+}
+.top_list p{
+    width: 280px;
+    padding-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.name_list{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 10px;
+}
+.list{
+    font-size: 15px;
+    text-align: left;
+}
+.list :hover{
+    color: red;
+}
+.content{
+    margin-top: 20px;
+    width: 80%;
+    float: left;
 }
 
 
-
-
-
-
-
-
+/*------main hot-----*/
+.main_hot{
+    margin-top: 50px;
+    width: 280px;
+    float: none;
+    margin-left: 200px  ;
+    margin-right: auto;
+}
+.hot_list{
+    text-transform: uppercase;
+    width: 280px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+.hot_list p{
+    width: 280px;
+    padding-left: 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hot_box{
+    margin: 10px;
+}
+.hot_box1 p{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+.hot_box1 a{
+    font-size: 13px;
+}
+/*---main right---*/
+.all_main .main_right{
+    float: right;
+    margin-right: 200px;
+    height: 100%;
+    width: 50%;
+    margin-top: -1350px;
+}
+#name{
+    width: 100%;
+}
+.all_main .main_right h2{
+    float: left;
+    font-weight: bold;
+    text-align: center;
+}
+.all_main .main_right p{
+    float: left;
+    margin-top: 20px;
+    margin-left: -200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 10px;
+    text-align: justify;
+}
+.all_main .main_right img{
+    float: left;
+    margin: 10px;
+}
+.all_main #author{
+    color: blue;
+    font-weight: lighter;
+    font-size: 15px;
+    float: left;
+    margin-left: 660px;
+}
+.all_main .save{
+    background-color: #402f2f;
+    float: left;
+    margin-left: 880px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.all_main .save a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.all_main .share{
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-left: 97%;
+}
+.all_main .share p{
+    font-size: 15px;
+}
+.all_main .share i{
+    font-size: 30px;
+}
+.page .col-lg-9 .order-lg-2{
+    flex-direction: row;
+    float: right;
+}
