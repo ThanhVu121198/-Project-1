@@ -10,7 +10,7 @@ body{
     color: #554f4f;
     overflow-x: hidden;
     width: 100%;
-    background-image:url("https://mynghesenviet.vn/wp-content/uploads/2019/12/bg3@2x.jpg48") ;
+    background-image:url("https://mynghesenviet.vn/wp-content/uploads/2019/12/bg3@2x.jpg") ;
 }
 
 /*---------------HEADER---------------*/
@@ -681,7 +681,7 @@ figure{
     font-size: 15px;
     width: 40%;
     height: 40px;
-    background-color: #57371f;
+    background-color: #eb3e32;
     border-radius: 50px;
     margin-left: 20px;
     font-weight: 800;
@@ -716,18 +716,16 @@ figure{
 .hot_link{
     width: 100%;
     height: auto;
-    margin-top: 10px;
+    margin-top: -50px;
     float: left;
 }
 .box_content{
     width: 100%;
-    background-color: white;
     float: left;
 }
 .image_box{
     width: 25%;
     height: 450px;
-    background-color: #ffffff;
     float: left;
     padding: 5px;
 }
