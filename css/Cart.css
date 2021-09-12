@@ -545,6 +545,7 @@ a, .text-link {
 /*--------------main-------------*/
 .main {
     z-index: 2;
+    padding-bottom: 25px;
 }
 .main .bread-crumb {
     padding: 15px 0;
@@ -690,6 +691,34 @@ a, .text-link {
     border-left: none;
     border-right: none;
 }
-
-
+.cart-footer .cart-subtotal {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: flex;
+}
+.cart-footer .cart-col-6 {
+    width: 50%;
+    float: left;
+}
+.cart-footer .cart-totle {
+    width: 50%;
+    float: left;
+}
+.cart-footer .cart-totle .total-price{
+    color: #eb3e32;
+    font-weight: bold;
+}
+.cart-footer .cart-button{
+    display: block;
+    position: relative;
+    padding-top: 20px;
+}
+.cart-footer .cart-button button{
+    width: 100%;
+    background-color: #eb3e32;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
 
