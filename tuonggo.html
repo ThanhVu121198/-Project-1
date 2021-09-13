@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>buy</title>
+  <title>product</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="images/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="js/jquery-3.6.0.min.js">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<link rel="stylesheet" href="css/buys.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/product2.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.15.4/css/all.css">
 </head>
 <body>
 <!-------------HEADER-------------->
@@ -360,193 +365,374 @@
     </ul>
   </div>
 </div>
-  <div class="container">
-    <div class="main">
-      <div class="diachi">
-        <a href="#"><h4>Home /</h4></a>
-        <h4 class="diachi2"> Library</h4>
+<div class="container">
+  <div class="main">
+    <div class="diachi">
+      <a href="#"><h4>Home /</h4></a>
+      <h4 class="diachi2"> Library</h4>
+    </div>
+    <!--    phần list-->
+    <div class="list_product">
+      <div class="top_list">
+        <p ><b>product list</b></p>
       </div>
-      <div class="buys_main">
-        <div class="buys_left">
-        <figure><img src="https://vn-test-11.slatic.net/p/c8ff34ab0ea1ab46014b494737cd22bd.jpg"></figure>
-        </div>
-        <div class="buys_right">
-          <h3><b class="buys_name">dragonfly painted green enamel</b></h3>
-          <div class="heat_like">
-            <i class="fas fa-heart"></i>
-        </div>
-          <h4 class="buys_brand">Brand:bat trang</h4>
-          <div class="price">
-            <h2 class="now_price">Price:1000.000đ</h2>
-            <h5 class="old_price">1000.000đ</h5>
-          </div>
-          <div class="box_number">
-            <div class="left_input"><h3><i\>quantity :</i></h3></div>
-            <div class="input_box">
-              <form class="input_number" name="f1">
-                <input class="button_dow" type='button' name='subtract' onclick='javascript: subtractQty();' value='-'/>
-                <input class="input" type='text' value="0" placeholder="0" name='qty' id='qty' />
-                <input class="button_up" type='button' name='add' onclick='javascript: document.getElementById("qty").value++;' value='+'/>
-              </form>
-            </div>
-          </div>
-          <div class="button_buy">
-            <button class="add_to_cart"> Add To Cart</button>
-            <button class="buy_now-buy"> Buy Now</button>
-          </div>
-        </div>
-      </div>
-      <div class="tab">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" role="tablist" style="padding:2px">
-          <li role="presentation" class="active"><a href="#over" aria-controls="home" role="tab" data-toggle="tab">product information</a></li>
-          <li role="presentation"><a href="#course" aria-controls="course" role="tab" data-toggle="tab">shopping guide</a></li>
-          <li role="presentation"><a href="#carrers" aria-controls="carrers" role="tab" data-toggle="tab">Please submit review</a></li>
+      <div class="list_box">
+        <a class="name_list"><b>interior</b></a>
+        <ul>
+          <li class ="list"><a href="#"> wooden tables and chairs</a></li>
+          <li class="list"><a href="#">wooden bed</a></li>
+          <li class="list"><a href="#"> wooden collapset</a></li>
+          <li class="list"><a href="#">wooden cabinets</a></li>
         </ul>
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="over">
-            <h4>product information:</h4>
+        <a class="name_list"><b>decorations</b></a>
+        <ul>
+          <li class="list"><a href="#">clock</a></li>
+          <li class="list"><a href="#">jewelry box</a></li>
+          <li class="list"><a href="#">candy box</a></li>
+          <li class="list"><a href="#">tea tray</a></li>
+        </ul>
+        <a class="name_list"><b>feng shui items</b></a>
+        <ul>
+          <li class="list"><a href="#">feng shui statue</a></li>
+          <li class="list"><a href="#">feng shui disk</a></li>
+          <li class="list"><a href="#">lucky pot</a></li>
+          <li class="list"><a href="#">feng shui jade</a></li>
+        </ul>
+        <a class="name_list"><b>bamboo handmade</b></a>
+        <ul>
+          <li class="list"><a href="#">Fashion handmade</a></li>
+          <li class="list"><a href="#">decorative accessories</a></li>
+          <li class="list"><a href="#">Bamboo furniture</a></li>
+          <li class="list"><a href="#">replacing plastic products</a></li>
+        </ul>
+        <a class="name_list"><b>Stonee</b></a>
+        <ul>
+          <li class="list"><a href="#">stone paintings</a></li>
+          <li class="list"><a href="#">stone statue</a></li>
+          <li class="list"><a href="#">Penjing</a></li>
+          <li class="list"><a href="#">accessories</a></li>
+        </ul>
+      </div>
+      <div class="main_hot">
+        <div class="hot_list">
+          <p><b>Related News</b></p>
+        </div>
+        <div class="hot_box">
+          <div class="hot_box1">
+            <p>Hoi An opens the 3rd handicraft market night<br>
+              <a href="#">See more</a>
+              <i class="fas fa-eye"></i></p>
           </div>
-          <div role="tabpanel" class="tab-pane" id="course">
-            <h4>Step 1: Find products to buy You can visit the website to find and select the products you want to buy in many ways:</h4>
-            <p> + Use the search box above, type the name of the product you want to buy (you can search for a specific product, search by brand...). The website will give you the correct suggestions to choose from:</p>
-            <h4> Step 2: Order products After choosing the product you want to buy, you proceed to place an order by:</h4>
-            + Select the BUY NOW button if you want to pay the full price of the product
-            + Fill in the purchase information according to the steps on the website, then choose the delivery method is delivery or go to the supermarket to pick up the goods, choose the payment method is pay on receipt or pay online (by ATM card, VISA or MasterCard) and complete the order.
-            <p><b>note:</b>
-              <i>1. We only accept orders when providing accurate information about address, phone number. After you place an order, we will contact you again to check the information and agree more related things.
-                2. Some sensitive cases: the order value is too large & delivery time in the evening delivery address in the alley or may lead to danger. We will actively contact you to agree on a specific delivery time.
-              </i> </p>
+          <hr>
+          <div class="hot_box1">
+            <p>Water hyacinth knitting abroad in Ninh Binh<br>
+              <a href="#">See more</a>
+              <i class="fas fa-eye"></i></p>
           </div>
-          <div role="tabpanel" class="tab-pane" id="carrers">
-            <div class="cmt">
-              <h4>comment:</h4>
-              <textarea style="width: 99%" class="form-control" rows="3"></textarea>
-              <input class="btn btn-primary" type="submit" value="Submit">
-            </div>
+          <hr>
+          <div class="hot_box1">
+            <p>Vietnam house - where the fine arts converge<br>
+              <a href="#">See more</a>
+              <i class="fas fa-eye"></i></p>
+          </div>
+          <hr>
+          <div class="hot_box1">
+            <p>Thien Phu Stone Wood creates a highlight for living space<br>
+              <a href="#">See more</a>
+              <i class="fas fa-eye"></i></p>
+          </div>
+          <hr>
+          <div class="hot_box1">
+            <p>The reason you must go to Hua Hin once<br>
+              <a href="#">See more</a>
+              <i class="fas fa-eye"></i></p>
           </div>
         </div>
-      </div>
-        <br>
-      <hr>
-      <div class="hot_link">
-        <h3>hot products</h3>
-        <div class="box_content">
-          <div class="box_column">
-            <a href="#"><div class="image_box">
-              <figure><img src="https://vn-test-11.slatic.net/p/c8ff34ab0ea1ab46014b494737cd22bd.jpg" width="299" height="300"></figure>
-              <div class="name_product">
-                <h5>EGO WEAR</h5>
-                <h4>TEAPOT SET HOA BAC AU</h4>
-                <div class="gia">
-                  399.000đ
-                </div>
-                <div class="gia2">
-                  460.000đ
-                </div>
-              </div>
-              <button class="heat">
-                <i class="far fa-heart"></i>
-              </button>
-              <button class="buy">
-                <i class="fas fa-shopping-basket"> +1</i>
-              </button>
-              <button class="buy_now">
-                <i class="fas fa-shopping-basket"> Buy Now</i>
-              </button>
-            </div></a>
-          </div>
-          <div class="box_column">
-            <a href="#"><div class="image_box">
-              <figure><img src="https://vn-test-11.slatic.net/p/c8ff34ab0ea1ab46014b494737cd22bd.jpg" width="299" height="300"></figure>
-              <div class="name_product">
-                <h5>EGO WEAR</h5>
-                <h4>TEAPOT SET HOA BAC AU</h4>
-                <div class="gia">
-                  399.000đ
-                </div>
-                <div class="gia2">
-                  460.000đ
-                </div>
-              </div>
-              <button class="heat">
-                <i class="far fa-heart"></i>
-              </button>
-              <button class="buy">
-                <i class="fas fa-shopping-basket"> +1</i>
-              </button>
-              <button class="buy_now">
-                <i class="fas fa-shopping-basket"> Buy Now</i>
-              </button>
-            </div></a>
-          </div>
-          <div class="box_column">
-            <a href="#"><div class="image_box">
-              <figure><img src="https://vn-test-11.slatic.net/p/c8ff34ab0ea1ab46014b494737cd22bd.jpg" width="299" height="300"></figure>
-              <div class="name_product">
-                <h5>EGO WEAR</h5>
-                <h4>TEAPOT SET HOA BAC AU</h4>
-                <div class="gia">
-                  399.000đ
-                </div>
-                <div class="gia2">
-                  460.000đ
-                </div>
-              </div>
-              <button class="heat">
-                <i class="far fa-heart"></i>
-              </button>
-              <button class="buy">
-                <i class="fas fa-shopping-basket"> +1</i>
-              </button>
-              <button class="buy_now">
-                <i class="fas fa-shopping-basket"> Buy Now</i>
-              </button>
-            </div></a>
-          </div>
-          <div class="box_column">
-            <a href="#"><div class="image_box">
-              <figure><img src="https://vn-test-11.slatic.net/p/c8ff34ab0ea1ab46014b494737cd22bd.jpg" width="299" height="300"></figure>
-              <div class="name_product">
-                <h5>EGO WEAR</h5>
-                <h4>TEAPOT SET HOA BAC AU</h4>
-                <div class="gia">
-                  399.000đ
-                </div>
-                <div class="gia2">
-                  460.000đ
-                </div>
-              </div>
-              <button class="heat">
-                <i class="far fa-heart"></i>
-              </button>
-              <button class="buy">
-                <i class="fas fa-shopping-basket"> +1</i>
-              </button>
-              <button class="buy_now">
-                <i class="fas fa-shopping-basket"> Buy Now</i>
-              </button>
-            </div></a>
-          </div>
-      </div>
       </div>
     </div>
+    <!--    đây là phần sắp xếp-->
+    <div class="content">
+      <div class="top_content">
+        <ul class="abs">
+          <li class="top_content_li"><a style="text-decoration: underline; color: #eead5a;" href="#">default sort</a></li>
+          <li class="top_content_li"><a href="#">from a to z</a></li>
+          <li class="top_content_li"><a href="#">prices gradually</a></li>
+          <li class="top_content_li"><a href="#">prices increase</a></li>
+          <li class="top_content_li"><a href="#">Latest</a></li>
+        </ul>
+        <hr>
+        <br>
+      </div>
+      <div class="abs_mobie">
+        <select>
+          <option>default sort</option>
+          <option>from a to z</option>
+          <option>prices gradually</option>
+          <option>prices increase</option>
+          <option>Latest</option>
+        </select>
+        <hr>
+      </div>
+      <!--      đây là phần content -->
+
+      <div class="box_content">
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://mynghephuloi.com/wp-content/uploads/2018/09/DSC_5284-1.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>Maitreya blood dragon statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://mynghephuloi.com/wp-content/uploads/2018/09/DSC_5288.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>Green cypress Maitreya statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://mynghephuloi.com/wp-content/uploads/2018/09/DSC_5292-300x300.jpg"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>Maitreya statue pulling money bag</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://phongthuygo.com/wp-content/uploads/2020/03/b8a9c2c1634d9813c15c.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>blood dragon wooden quan yin statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://i.ytimg.com/vi/CmYOWrBnXIw/maxresdefault.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>green cypress wood mandarin statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://tuonggo360.com/media/catalog/product/cache/48683d5ce1e35fb4445c504119b44f8c/z/2/z2674398094191_1e9428bb4616accdf74b676f46de5520.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>arowana statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://news.meeycdn.com/uploads/2020/10/anh-1-y-nghia-cua-tuong-go-phong-thuy.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>Guan Yu statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://loiphong.vn/uploaded/10.GOC-TU-VAN/56.thiem-thu/thiem-thu-3.jpg" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>toad statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://sonhabuloncapthep.com/wp-content/uploads/2019/09/I1ovuRDi78n5gCatD0ZM29eoHJardRJPy_-LrOENEozYvRdSTIfVITFTc7xmsmjoH40tI9GmzcgNye3DKJUE2iYp9o5zEAvTs1veoCFGOH_kalIygFtp7Yn7lz1YviwivHFrMr0Csbocot652Q.png" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>statue of one hundred Buddhas</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+        <div class="box_column">
+          <a href="#"><div class="image_box">
+            <figure><img src="https://tuonggomynghedep.com/wp-content/uploads/2019/04/2019-04-22_082913.png" width="299" height="300"></figure>
+            <div class="name_product">
+              <h5>EGO WEAR</h5>
+              <h4>Buddha statue</h4>
+              <div class="gia">
+                399.000đ
+              </div>
+              <div class="gia2">
+                460.000đ
+              </div>
+            </div>
+            <button class="heat">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="buy">
+              <i class="fas fa-shopping-basket"> +1</i>
+            </button>
+            <button class="buy_now">
+              <i class="fas fa-shopping-basket"> Buy Now</i>
+            </button>
+          </div></a>
+        </div>
+
+        <!--đây là đường phân cách-->
+      </div>
+    </div>
+    <!--het content   -->
   </div>
+</div>
+<div class="button_pade">
+  <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+      <button type="button" style="background-color:#57371f ;" class="btn btn"><a style=" color: #eead5a;" href="#">1</a></button>
+      <button type="button" style="background-color:#57371f ;" class="btn btn"><a style=" color: #eead5a;" href="#">2</a></button>
+      <button type="button" style="background-color:#57371f ;" class="btn btn"><a style=" color: #eead5a;" href="#">3</a></button>
+      <button type="button" style="background-color:#57371f ;" class="btn btn"><a style=" color: #eead5a;" href="#">4</a></button>
+    </div>
+  </div>
+  <!--kết thúc thẻ main-->
   <div class="footer"></div>
-<script type="text/javascript" src="js/tabs.js"></script>
-  <script type="text/javascript">
-    function subtractQty(){
-      if(document.getElementById("qty").value - 1 < 0)
-        return;
-      else
-        document.getElementById("qty").value--;
-    }
-  </script>
-<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-
 </body>
-</html>
-
+</html>l>

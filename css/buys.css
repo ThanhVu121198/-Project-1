@@ -612,6 +612,7 @@ figure{
 .now_price{
     line-height: 30px;
     color: #eb3e32;
+    text-transform: capitalize;
 }
 .old_price{
     line-height: 45px;
