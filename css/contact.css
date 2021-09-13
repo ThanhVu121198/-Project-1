@@ -398,7 +398,7 @@ a, .text-link {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    /*background-color: rgba(0, 0, 0, 0.3);*/
     animation: fadeIn linear 0.2s;
 }
 
@@ -545,7 +545,9 @@ a, .text-link {
 /*--------------main-------------*/
 .main {
     z-index: 2;
+    background-image: url("https://mynghesenviet.vn/wp-content/uploads/2019/12/bg3@2x.jpg");
 }
+
 .main .bread-crumb {
     padding: 15px 0;
     max-width: 1296px;
@@ -558,7 +560,7 @@ a, .text-link {
     line-height: 1.7;
 }
 .main .g{
-    padding: 0 3px;
+    padding-bottom: 25px;
 }
 .breadcrumb {
     display: flex;
@@ -589,7 +591,7 @@ a, .text-link {
     height: 40px;
     line-height: 40px;
     border-radius: 40px;
-    background: #eb3e32;
+    background: #cc884c;
     color: #fff;
     text-align: center;
     display: flex;
@@ -626,7 +628,7 @@ a, .text-link {
     color: #323c42;
     height: 40px;
     padding: 0 15px;
-    border-left: 2px solid #eb3e32;
+    border-left: 2px solid #cc884c;
     background-color: #f7f7f7;
 }
 .group_contact .form-group input,
@@ -645,7 +647,7 @@ a, .text-link {
     border: none;
     box-shadow: none;
     outline: none;
-    background: #eb3e32;
+    background: #cc884c;
     color: #fff;
     height: 40px;
     line-height: 40px;
@@ -654,6 +656,7 @@ a, .text-link {
     border-radius: 5px;
     display: inline-block;
 }
+
 
 
 

@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto",sans-serif;
-
 }
 body{
     font-size: 14px;
@@ -12,9 +11,7 @@ body{
     overflow-x: hidden;
     width: 100%;
     height: 2000px;
-    line-height: 1.7;
 }
-
 /*---------------HEADER---------------*/
 .header{
     width: 100%;
@@ -156,7 +153,7 @@ body{
 .header .tuvan {
     padding-left: 50px;
     position: relative;
-    top: 10px;
+    top: 7px;
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: 10px 6px;
@@ -236,10 +233,7 @@ a, .text-link {
     padding-left: 10px ;
     padding-right: 10px ;
     background-color: #ffffff;
-    /*margin-left: 117px;*/
-    margin-right: auto;
-    margin-left: auto;
-    z-index: 1;
+    margin-left: 117px;
 }
 .nav > li {
     display: inline-block;
@@ -265,7 +259,7 @@ a, .text-link {
     opacity: 0; visibility: hidden; top: 150%; transition: all 0.5s ease-in-out;
     position: absolute;
     left: 150%;
-    width: 250px;
+    width: 270px;
     margin-top: -60px;
     background-color: #fdfdfd;
     box-shadow: 10px 10px 10px -10px gray;
@@ -473,21 +467,7 @@ a, .text-link {
     top: -90px;
 }
 
-
-/*------------------SLIDER--------------------*/
-
-
-
-/*.slider{*/
-/*    width: 100%;*/
-/*    height: 500px;*/
-/*    background-color: #323c42;*/
-/*    background-image: url("https://bizweb.dktcdn.net/100/434/926/themes/832778/assets/slider_1.jpg?1630049520862");*/
-/*}*/
-
-
-
-
+/*---------------Mobile--------------*/
 @keyframes fadeIn {
     from{
         opacity: 0;
@@ -543,136 +523,49 @@ a, .text-link {
 
     }
 }
-/*--------------main-------------*/
-.main {
-    z-index: 2;
+/*---------------MAIN--------------*/
+.main{
+    position: relative;
+    z-index: 1;
+    left: -110px;
 }
-.main .bread-crumb {
-    padding: 15px 0;
-    max-width: 1296px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.container .bread-crumb {
-    width: 85%;
-    margin: 0 84.708px;
-    line-height: 1.7;
-}
-.main .g{
-    padding: 0 3px;
-}
-.breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0;
-    margin-bottom: 1rem;
-    list-style: none;
+.breadcrumb{
     background-color: white;
+    margin-top: 15px;
+    position: relative;
+    left: 22px;
+}
+.breadcrumb li  .mr{
+    padding: 0px 3px;
+    color: black;
 }
 .breadcrumb li span{
     display: inline;
-    font-size: 17px;
 }
-.breadcrumb li strong span{
-    color: #ff6200;
-}
-.page .aside-item .nav-item{
+.section-detail-default{
     position: relative;
-    clear: left;
-    font-size: 14px;
-    padding: 0;
-    width: 100%;
+    top: 15px;
+}
+.description-video{
+    position: relative;
+    left: 60px;
+    bottom: 25px;
+}
+.frm_comment{
+    box-shadow: 0 2px 40px 0 rgb(0 0 0 / 50%);
+}
+scroll-tag .comment-box span{
     float: left;
 }
-.aside-blog .blog-list .loop-blog{
-    overflow: hidden;
-    padding: 10px 0;
-    border-bottom: 1px solid #ebebeb;
+.video{
+    padding: 20px;
 }
-.aside-item .navbar-pills{
-    padding: 0;
-    z-index: 1;
-}
-@media (max-width: 1182px) {
-    .navbar-pills {
-        display: block;
-    }
-}
-.aside-blog .aside-list-content{
+.video1 iframe{
     width: 100%;
 }
-.aside-blog .aside-list-content .loop-blog{
-    display: flex;
+.video1{
+    padding: 10px;
 }
-.aside-blog .aside-list-content .loop-blog .name-right{
-    display: block;
-    float: left;
-    padding-left: 10px;
-    width: calc(100% - 90px);
-    margin: 0;
+.video1 a h3{
+    font-size: 15px;
 }
-
-.colums-item {
-    margin-bottom: 20px;
-}
-.post-item{
-    overflow: hidden;
-    padding-bottom: 0;
-    background-color: #f0eddf ;
-    z-index: 1;
-}
-.products-colums .post-item .post-featured{
-    float: left;
-    margin-right: 20px;
-    width: 33%;
-    border-bottom: none;
-    overflow: hidden;
-    display: inline-block;
-}
-.products-colums .post-featured .post-thumb{
-    font-family: inherit;
-    font-size: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    border: 0;
-    outline: 0;
-    -webkit-font-smoothing: antialiased;
-    -ms-word-wrap: break-word;
-    word-wrap: break-word;
-}
-.post-conten{
-    overflow: hidden;
-    padding: 16px 20px 16px 0;
-
-}
-.post-conten h3{
-    margin-top: 0;
-    margin-bottom: 8px;
-    border-bottom: none;
-    font-weight: 700;
-}
-.post-conten .desciption{
-    margin: 20px 0;
-}
-.post-conten .post-button{
-    margin-top: 60px;
-}
-.post-conten .post-button a{
-    bottom: 3px;
-    left: 0;
-    padding: 12px 34px;
-    color: #ffffff;
-    background-color: #767676;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-
-
-
-
-
-
-
-
